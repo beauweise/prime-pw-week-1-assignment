@@ -1,11 +1,32 @@
 /* Give your page a fun background color */
+body {
+  background-color: lightblue;
 
+}
 /* Make the header and footer a different color from the background */
+h1 {
+  background-color: blue;
+  text-align: center;
+}
 
+footer {
+  background-color: lightgreen
+}
+footer {  color: white;
+  font-style: italic;}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
 
 /* Put a border around your image */
-
+img:hover {
+  transform: scaleX(-1);
+  border: solid red;
+}
+img{
+  width: 50%;
+  height: auto;
+  border: solid red;
+}
 /* Change the font-family of your list */
+ul {font-family: fantasy;}
